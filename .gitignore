@@ -1,0 +1,14 @@
+.venv
+_models
+tmp
+__pycache__/
+*.py[cod]
+images/**
+.vscode
+
+# Training stuff
+sets
+deblocking
+
+# Logs
+log_file.log

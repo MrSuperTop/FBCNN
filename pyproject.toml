@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "jpeg-artefact-removal"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+numpy = "^1.23.0"
+opencv-python = "^4.6.0"
+requests = "^2.28.1"
+screeninfo = "^0.8"
+scipy = "^1.8.1"
+scikit-image = "^0.19.3"
+Pillow = "^9.2.0"
+typing-extensions = "^4.3.0"
+matplotlib = "^3.5.2"
+torch = "^1.12.0"
+torchvision = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+pycodestyle = "^2.8.0"
+yapf = "^0.32.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
